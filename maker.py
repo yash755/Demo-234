@@ -4,14 +4,14 @@ import json
 from bs4 import BeautifulSoup
 import xlsxwriter
 
-workbook = xlsxwriter.Workbook('demo1234.xlsx')
+workbook = xlsxwriter.Workbook('demo_final.xlsx')
 worksheet = workbook.add_worksheet()
 line_count = 0
 
 
 page = 1
 
-while page<2:
+while page<35:
 
     print ('https://maker2u.com/store-listing-2/page/' + str(page) + '/')
 
